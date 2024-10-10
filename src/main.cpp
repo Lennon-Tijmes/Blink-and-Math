@@ -47,4 +47,9 @@ int Menu() {
   {
     Serial.println("Please make sure to type in '1' or '2' correctly.");
   }
+
 }
+
+//blink functie thijs
+
+// Testing if it works
