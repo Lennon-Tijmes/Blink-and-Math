@@ -1,8 +1,6 @@
 #include <Arduino.h>
 #include <stdbool.h>
 
-bool sum_option = false;
-bool multi_option = false;
 int menu_option = 0;
 
 // put function declarations here:
@@ -31,15 +29,11 @@ int Menu() {
 
   if(menu_option == 1)
   {
-    bool sum_option = true;
-    bool multi_option = false;
     Serial.println("You have selected the adding function");
     // add the sum function call here
   }
   else if(menu_option == 2)
   {
-    bool multi_option = true;
-    bool sum_option = false;
     Serial.println("You have selected the multiplication function");
     // add the multiplication function call here
   }
